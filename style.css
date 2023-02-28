@@ -1,0 +1,119 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.page{
+    padding:3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar{
+    width: 90%;
+
+    background-color: white;
+    overflow: hidden;
+}
+
+.navbar a{
+    display: inline-block;
+    width: 90;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-clip: content-box;
+    text-decoration: none;
+    opacity: 60%;
+    color: #000;
+    font-size: smaller;
+}
+
+.navbar a:hover{
+    background-clip: border-box;
+    opacity: 100%;
+}
+
+.navbar a.active{
+    border: 1px;
+    border-color: black;
+    border-radius: 10%;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    box-shadow: #000;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    padding: 1%;
+    box-shadow: 5px 10px 10px 0px rgba(0,0,0,0.2);
+    left: 0;
+    top: 100%;
+    width: 100%;
+    border-radius: 20%;
+    transition: height 1s ease;
+    z-index:1;
+}
+
+.dropdown-content a{
+    color: #000;
+    padding: 3px 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: darkgrey;
+}
+
+.link-border{
+    border: 2px solid;
+    border-radius: 10%;
+}
+.h1{
+    font-size: xx-large;
+}
+
+.div1{
+    z-index: -1;
+    padding-left: 15%;
+    padding-right: 10%;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.div2{
+    z-index: -1;
+    padding-right: 10%;
+    float: right;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    z-index: -2;
+}
+
+.link-in-body{
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    padding: 10px;
+    border-radius: 15%;
+}
+
+.body-text{
+opacity: 60%;
+}
+
+
+.td{
+    padding-right: 40px;
+}
